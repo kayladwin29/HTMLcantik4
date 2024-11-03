@@ -1,0 +1,116 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background-image: url("/latihan/images/dufan4.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: beige;
+}
+
+.box {
+    width: 1200px;
+    height: 300px;
+    padding: 10px;
+    border: 5px; color: darkred;
+    margin: 15px;
+    background-color: beige;
+    text-align: justify;
+}
+.icon {
+    font-size: 24px;
+    margin: 10px;
+
+}
+a:link {
+    color: pink;
+}
+a:hover {
+    color: aquamarine;
+}
+a:visited {
+    color: palevioletred;
+}
+a:active {
+    color: darkseagreen;
+}
+
+ul {
+    background: lightpink;
+    padding: 20px;
+}
+
+ul, li {
+    background: lightpink;
+    color: black;
+    margin: 10px;
+}
+
+p {
+    border: 5px solid lightblue;
+    outline-style: ridge;
+    outline-color: indianred;
+    outline-width: 10px;
+    outline-offset: 4px;
+    text-align: justify;
+    text-indent: 25px;
+    padding: 7px;
+    margin: 10px;
+}
+
+h2 {
+    background-color: lightpink;
+    text-decoration: underline;
+    text-align: center;
+}
+h1 {
+    background-color: beige;
+    text-align: center;
+    text-decoration: underline wavy hotpink;
+    text-shadow: 2px 2px 5px darkred;
+}
+h3 {
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+table, th, td {
+    border: 2px dashed;
+}
+table {
+    width: 20%;
+    border-collapse: collapse;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr :hover {background-color: lightpink;}
+th {
+    height: 50px;
+    text-align: center;
+    background-color: hotpink;
+}
+td {
+    height: 50px;
+    text-align: center;
+}
+.table-responsive {
+    overflow-x: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.kontainer-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ img {
+    margin: 7px;
+    width: 200px;
+    height: 200px;
+ }
